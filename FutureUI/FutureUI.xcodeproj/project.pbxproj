@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDCE70E25BDDFE7009D94B1 /* FutureUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE6FB25BDDFDE009D94B1 /* FutureUIApp.swift */; };
+		1DDCE70F25BDDFE7009D94B1 /* FutureUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE6FB25BDDFDE009D94B1 /* FutureUIApp.swift */; };
+		1DDCE71025BDDFE7009D94B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE6FC25BDDFDE009D94B1 /* ContentView.swift */; };
+		1DDCE71125BDDFE7009D94B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE6FC25BDDFDE009D94B1 /* ContentView.swift */; };
+		1DDCE71225BDDFE7009D94B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DDCE6FD25BDDFE7009D94B1 /* Assets.xcassets */; };
+		1DDCE71325BDDFE7009D94B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DDCE6FD25BDDFE7009D94B1 /* Assets.xcassets */; };
+		1DDCE71F25BDE047009D94B1 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE71E25BDE047009D94B1 /* Colors.swift */; };
+		1DDCE72025BDE047009D94B1 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE71E25BDE047009D94B1 /* Colors.swift */; };
+		1DDCE72625BDE089009D94B1 /* Color+hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE72525BDE089009D94B1 /* Color+hex.swift */; };
+		1DDCE72725BDE089009D94B1 /* Color+hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE72525BDE089009D94B1 /* Color+hex.swift */; };
+		1DDCE72D25BDE100009D94B1 /* MouseMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE72C25BDE100009D94B1 /* MouseMove.swift */; };
+		1DDCE72E25BDE100009D94B1 /* MouseMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE72C25BDE100009D94B1 /* MouseMove.swift */; };
+		1DDCE73225BDE129009D94B1 /* Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE73125BDE129009D94B1 /* Nifty.swift */; };
+		1DDCE73325BDE129009D94B1 /* Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE73125BDE129009D94B1 /* Nifty.swift */; };
+		1DDCE74025BDE201009D94B1 /* WIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE73F25BDE201009D94B1 /* WIP.swift */; };
+		1DDCE74125BDE201009D94B1 /* WIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE73F25BDE201009D94B1 /* WIP.swift */; };
+		1DDCE74525BDE231009D94B1 /* DateFormatter+future.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE74425BDE231009D94B1 /* DateFormatter+future.swift */; };
+		1DDCE74625BDE231009D94B1 /* DateFormatter+future.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE74425BDE231009D94B1 /* DateFormatter+future.swift */; };
+		1DDCE74A25BDE355009D94B1 /* Hexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE74925BDE355009D94B1 /* Hexagon.swift */; };
+		1DDCE74B25BDE355009D94B1 /* Hexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE74925BDE355009D94B1 /* Hexagon.swift */; };
+		1DDCE74F25BDE363009D94B1 /* Hexagon+preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE74E25BDE363009D94B1 /* Hexagon+preview.swift */; };
+		1DDCE75025BDE363009D94B1 /* Hexagon+preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE74E25BDE363009D94B1 /* Hexagon+preview.swift */; };
+		1DDCE75425BDE3C2009D94B1 /* View+hexagonalFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE75325BDE3C2009D94B1 /* View+hexagonalFrame.swift */; };
+		1DDCE75525BDE3C2009D94B1 /* View+hexagonalFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE75325BDE3C2009D94B1 /* View+hexagonalFrame.swift */; };
+		1DDCE75C25BDE3EF009D94B1 /* RoundedHexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE75B25BDE3EF009D94B1 /* RoundedHexagon.swift */; };
+		1DDCE75D25BDE3EF009D94B1 /* RoundedHexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE75B25BDE3EF009D94B1 /* RoundedHexagon.swift */; };
+		1DDCE76725BDE452009D94B1 /* RoundedHexagon+preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE76625BDE452009D94B1 /* RoundedHexagon+preview.swift */; };
+		1DDCE76825BDE452009D94B1 /* RoundedHexagon+preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE76625BDE452009D94B1 /* RoundedHexagon+preview.swift */; };
+		1DDCE77D25BDE56B009D94B1 /* Date+round.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE77B25BDE56B009D94B1 /* Date+round.swift */; };
+		1DDCE77E25BDE56B009D94B1 /* Date+round.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE77B25BDE56B009D94B1 /* Date+round.swift */; };
+		1DDCE77F25BDE56B009D94B1 /* Calendar+generate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE77C25BDE56B009D94B1 /* Calendar+generate.swift */; };
+		1DDCE78025BDE56B009D94B1 /* Calendar+generate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE77C25BDE56B009D94B1 /* Calendar+generate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DDCE6FB25BDDFDE009D94B1 /* FutureUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureUIApp.swift; sourceTree = "<group>"; };
+		1DDCE6FC25BDDFDE009D94B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1DDCE6FD25BDDFE7009D94B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DDCE70225BDDFE7009D94B1 /* FutureUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FutureUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DDCE70525BDDFE7009D94B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DDCE70A25BDDFE7009D94B1 /* FutureUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FutureUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DDCE70C25BDDFE7009D94B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DDCE70D25BDDFE7009D94B1 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		1DDCE71E25BDE047009D94B1 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		1DDCE72525BDE089009D94B1 /* Color+hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+hex.swift"; sourceTree = "<group>"; };
+		1DDCE72C25BDE100009D94B1 /* MouseMove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseMove.swift; sourceTree = "<group>"; };
+		1DDCE73125BDE129009D94B1 /* Nifty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nifty.swift; sourceTree = "<group>"; };
+		1DDCE73625BDE146009D94B1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1DDCE73F25BDE201009D94B1 /* WIP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WIP.swift; sourceTree = "<group>"; };
+		1DDCE74425BDE231009D94B1 /* DateFormatter+future.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+future.swift"; sourceTree = "<group>"; };
+		1DDCE74925BDE355009D94B1 /* Hexagon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hexagon.swift; sourceTree = "<group>"; };
+		1DDCE74E25BDE363009D94B1 /* Hexagon+preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hexagon+preview.swift"; sourceTree = "<group>"; };
+		1DDCE75325BDE3C2009D94B1 /* View+hexagonalFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+hexagonalFrame.swift"; sourceTree = "<group>"; };
+		1DDCE75B25BDE3EF009D94B1 /* RoundedHexagon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedHexagon.swift; sourceTree = "<group>"; };
+		1DDCE76625BDE452009D94B1 /* RoundedHexagon+preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RoundedHexagon+preview.swift"; sourceTree = "<group>"; };
+		1DDCE77B25BDE56B009D94B1 /* Date+round.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+round.swift"; sourceTree = "<group>"; };
+		1DDCE77C25BDE56B009D94B1 /* Calendar+generate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Calendar+generate.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DDCE6FF25BDDFE7009D94B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DDCE70725BDDFE7009D94B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DDCE6F525BDDFDD009D94B1 = {
+			isa = PBXGroup;
+			children = (
+				1DDCE73625BDE146009D94B1 /* README.md */,
+				1DDCE6FA25BDDFDE009D94B1 /* Shared */,
+				1DDCE70425BDDFE7009D94B1 /* iOS */,
+				1DDCE70B25BDDFE7009D94B1 /* macOS */,
+				1DDCE70325BDDFE7009D94B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DDCE6FA25BDDFDE009D94B1 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1DDCE6FD25BDDFE7009D94B1 /* Assets.xcassets */,
+				1DDCE6FB25BDDFDE009D94B1 /* FutureUIApp.swift */,
+				1DDCE6FC25BDDFDE009D94B1 /* ContentView.swift */,
+				1DDCE76F25BDE4E8009D94B1 /* Molds */,
+				1DDCE77225BDE501009D94B1 /* Tools */,
+				1DDCE75825BDE3C7009D94B1 /* Hexagonal */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		1DDCE70325BDDFE7009D94B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DDCE70225BDDFE7009D94B1 /* FutureUI.app */,
+				1DDCE70A25BDDFE7009D94B1 /* FutureUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DDCE70425BDDFE7009D94B1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1DDCE70525BDDFE7009D94B1 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		1DDCE70B25BDDFE7009D94B1 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				1DDCE70C25BDDFE7009D94B1 /* Info.plist */,
+				1DDCE70D25BDDFE7009D94B1 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		1DDCE75825BDE3C7009D94B1 /* Hexagonal */ = {
+			isa = PBXGroup;
+			children = (
+				1DDCE74925BDE355009D94B1 /* Hexagon.swift */,
+				1DDCE74E25BDE363009D94B1 /* Hexagon+preview.swift */,
+				1DDCE75B25BDE3EF009D94B1 /* RoundedHexagon.swift */,
+				1DDCE76625BDE452009D94B1 /* RoundedHexagon+preview.swift */,
+				1DDCE75325BDE3C2009D94B1 /* View+hexagonalFrame.swift */,
+			);
+			path = Hexagonal;
+			sourceTree = "<group>";
+		};
+		1DDCE76F25BDE4E8009D94B1 /* Molds */ = {
+			isa = PBXGroup;
+			children = (
+				1DDCE73F25BDE201009D94B1 /* WIP.swift */,
+			);
+			path = Molds;
+			sourceTree = "<group>";
+		};
+		1DDCE77225BDE501009D94B1 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				1DDCE71E25BDE047009D94B1 /* Colors.swift */,
+				1DDCE72525BDE089009D94B1 /* Color+hex.swift */,
+				1DDCE72C25BDE100009D94B1 /* MouseMove.swift */,
+				1DDCE73125BDE129009D94B1 /* Nifty.swift */,
+				1DDCE77B25BDE56B009D94B1 /* Date+round.swift */,
+				1DDCE77C25BDE56B009D94B1 /* Calendar+generate.swift */,
+				1DDCE74425BDE231009D94B1 /* DateFormatter+future.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DDCE70125BDDFE7009D94B1 /* FutureUI (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DDCE71625BDDFE7009D94B1 /* Build configuration list for PBXNativeTarget "FutureUI (iOS)" */;
+			buildPhases = (
+				1DDCE6FE25BDDFE7009D94B1 /* Sources */,
+				1DDCE6FF25BDDFE7009D94B1 /* Frameworks */,
+				1DDCE70025BDDFE7009D94B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FutureUI (iOS)";
+			productName = "FutureUI (iOS)";
+			productReference = 1DDCE70225BDDFE7009D94B1 /* FutureUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DDCE70925BDDFE7009D94B1 /* FutureUI (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DDCE71925BDDFE7009D94B1 /* Build configuration list for PBXNativeTarget "FutureUI (macOS)" */;
+			buildPhases = (
+				1DDCE70625BDDFE7009D94B1 /* Sources */,
+				1DDCE70725BDDFE7009D94B1 /* Frameworks */,
+				1DDCE70825BDDFE7009D94B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FutureUI (macOS)";
+			productName = "FutureUI (macOS)";
+			productReference = 1DDCE70A25BDDFE7009D94B1 /* FutureUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DDCE6F625BDDFDD009D94B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					1DDCE70125BDDFE7009D94B1 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					1DDCE70925BDDFE7009D94B1 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 1DDCE6F925BDDFDD009D94B1 /* Build configuration list for PBXProject "FutureUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DDCE6F525BDDFDD009D94B1;
+			productRefGroup = 1DDCE70325BDDFE7009D94B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DDCE70125BDDFE7009D94B1 /* FutureUI (iOS) */,
+				1DDCE70925BDDFE7009D94B1 /* FutureUI (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DDCE70025BDDFE7009D94B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DDCE71225BDDFE7009D94B1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DDCE70825BDDFE7009D94B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DDCE71325BDDFE7009D94B1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DDCE6FE25BDDFE7009D94B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DDCE75C25BDE3EF009D94B1 /* RoundedHexagon.swift in Sources */,
+				1DDCE72D25BDE100009D94B1 /* MouseMove.swift in Sources */,
+				1DDCE77E25BDE56B009D94B1 /* Date+round.swift in Sources */,
+				1DDCE76725BDE452009D94B1 /* RoundedHexagon+preview.swift in Sources */,
+				1DDCE73225BDE129009D94B1 /* Nifty.swift in Sources */,
+				1DDCE74A25BDE355009D94B1 /* Hexagon.swift in Sources */,
+				1DDCE78025BDE56B009D94B1 /* Calendar+generate.swift in Sources */,
+				1DDCE74F25BDE363009D94B1 /* Hexagon+preview.swift in Sources */,
+				1DDCE74525BDE231009D94B1 /* DateFormatter+future.swift in Sources */,
+				1DDCE74025BDE201009D94B1 /* WIP.swift in Sources */,
+				1DDCE71025BDDFE7009D94B1 /* ContentView.swift in Sources */,
+				1DDCE75425BDE3C2009D94B1 /* View+hexagonalFrame.swift in Sources */,
+				1DDCE72625BDE089009D94B1 /* Color+hex.swift in Sources */,
+				1DDCE71F25BDE047009D94B1 /* Colors.swift in Sources */,
+				1DDCE70E25BDDFE7009D94B1 /* FutureUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DDCE70625BDDFE7009D94B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DDCE75D25BDE3EF009D94B1 /* RoundedHexagon.swift in Sources */,
+				1DDCE72E25BDE100009D94B1 /* MouseMove.swift in Sources */,
+				1DDCE77D25BDE56B009D94B1 /* Date+round.swift in Sources */,
+				1DDCE76825BDE452009D94B1 /* RoundedHexagon+preview.swift in Sources */,
+				1DDCE73325BDE129009D94B1 /* Nifty.swift in Sources */,
+				1DDCE74B25BDE355009D94B1 /* Hexagon.swift in Sources */,
+				1DDCE77F25BDE56B009D94B1 /* Calendar+generate.swift in Sources */,
+				1DDCE75025BDE363009D94B1 /* Hexagon+preview.swift in Sources */,
+				1DDCE74625BDE231009D94B1 /* DateFormatter+future.swift in Sources */,
+				1DDCE74125BDE201009D94B1 /* WIP.swift in Sources */,
+				1DDCE71125BDDFE7009D94B1 /* ContentView.swift in Sources */,
+				1DDCE75525BDE3C2009D94B1 /* View+hexagonalFrame.swift in Sources */,
+				1DDCE72725BDE089009D94B1 /* Color+hex.swift in Sources */,
+				1DDCE72025BDE047009D94B1 /* Colors.swift in Sources */,
+				1DDCE70F25BDDFE7009D94B1 /* FutureUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DDCE71425BDDFE7009D94B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DDCE71525BDDFE7009D94B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1DDCE71725BDDFE7009D94B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AFEX2H2TBN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = green.felix.FutureUI;
+				PRODUCT_NAME = FutureUI;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DDCE71825BDDFE7009D94B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AFEX2H2TBN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = green.felix.FutureUI;
+				PRODUCT_NAME = FutureUI;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DDCE71A25BDDFE7009D94B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AFEX2H2TBN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = green.felix.FutureUI;
+				PRODUCT_NAME = FutureUI;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1DDCE71B25BDDFE7009D94B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AFEX2H2TBN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = green.felix.FutureUI;
+				PRODUCT_NAME = FutureUI;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DDCE6F925BDDFDD009D94B1 /* Build configuration list for PBXProject "FutureUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DDCE71425BDDFE7009D94B1 /* Debug */,
+				1DDCE71525BDDFE7009D94B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DDCE71625BDDFE7009D94B1 /* Build configuration list for PBXNativeTarget "FutureUI (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DDCE71725BDDFE7009D94B1 /* Debug */,
+				1DDCE71825BDDFE7009D94B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DDCE71925BDDFE7009D94B1 /* Build configuration list for PBXNativeTarget "FutureUI (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DDCE71A25BDDFE7009D94B1 /* Debug */,
+				1DDCE71B25BDDFE7009D94B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DDCE6F625BDDFDD009D94B1 /* Project object */;
+}
