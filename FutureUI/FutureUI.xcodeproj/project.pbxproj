@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D53E5A625C1CDB700B4E1BE /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D53E5A525C1CDB700B4E1BE /* ButtonStyles.swift */; };
+		1D53E5A725C1CDB700B4E1BE /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D53E5A525C1CDB700B4E1BE /* ButtonStyles.swift */; };
 		1DDCE70E25BDDFE7009D94B1 /* FutureUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE6FB25BDDFDE009D94B1 /* FutureUIApp.swift */; };
 		1DDCE70F25BDDFE7009D94B1 /* FutureUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE6FB25BDDFDE009D94B1 /* FutureUIApp.swift */; };
 		1DDCE71025BDDFE7009D94B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE6FC25BDDFDE009D94B1 /* ContentView.swift */; };
@@ -42,6 +44,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D53E5A525C1CDB700B4E1BE /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
 		1DDCE6FB25BDDFDE009D94B1 /* FutureUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureUIApp.swift; sourceTree = "<group>"; };
 		1DDCE6FC25BDDFDE009D94B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1DDCE6FD25BDDFE7009D94B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,6 +104,7 @@
 				1DDCE6FD25BDDFE7009D94B1 /* Assets.xcassets */,
 				1DDCE6FB25BDDFDE009D94B1 /* FutureUIApp.swift */,
 				1DDCE6FC25BDDFDE009D94B1 /* ContentView.swift */,
+				1D53E5A525C1CDB700B4E1BE /* ButtonStyles.swift */,
 				1DDCE76F25BDE4E8009D94B1 /* Molds */,
 				1DDCE77225BDE501009D94B1 /* Tools */,
 				1DDCE75825BDE3C7009D94B1 /* Hexagonal */,
@@ -278,6 +282,7 @@
 				1DDCE71025BDDFE7009D94B1 /* ContentView.swift in Sources */,
 				1DDCE75425BDE3C2009D94B1 /* View+hexagonalFrame.swift in Sources */,
 				1DDCE72625BDE089009D94B1 /* Color+hex.swift in Sources */,
+				1D53E5A625C1CDB700B4E1BE /* ButtonStyles.swift in Sources */,
 				1DDCE71F25BDE047009D94B1 /* Colors.swift in Sources */,
 				1DDCE70E25BDDFE7009D94B1 /* FutureUIApp.swift in Sources */,
 			);
@@ -300,6 +305,7 @@
 				1DDCE71125BDDFE7009D94B1 /* ContentView.swift in Sources */,
 				1DDCE75525BDE3C2009D94B1 /* View+hexagonalFrame.swift in Sources */,
 				1DDCE72725BDE089009D94B1 /* Color+hex.swift in Sources */,
+				1D53E5A725C1CDB700B4E1BE /* ButtonStyles.swift in Sources */,
 				1DDCE72025BDE047009D94B1 /* Colors.swift in Sources */,
 				1DDCE70F25BDDFE7009D94B1 /* FutureUIApp.swift in Sources */,
 			);
