@@ -8,6 +8,7 @@
 - [x] Hexagons
 - [x] DateTime
 
+- [ ] AppDelegate stuff I did for the HexagonalPortrait
 
 ### Maybe
 - [ ] HelperLabels
@@ -20,7 +21,7 @@
 ## CHANGELOG
 
 **12021·01·27**
-- add BrutalistButtonStyle
+- add BrutalistButtonStyle, SmartOverlay
 
 **12021·01·24**
 - added Colors, Hexagons, DateTime, MouseMove, Nifty funcs 
