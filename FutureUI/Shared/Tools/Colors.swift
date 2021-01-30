@@ -118,9 +118,37 @@ extension ColorLuminance: Identifiable {
 	var id: Int { rawValue }
 }
 
-/// Secondary (3 away), Tertiary (2 away), Quarternary (1 away)
+/// Auxiliary (1 away), Secondary (2 away), Tertiary (3 away), Quarternary (4 away), Accessible (Farthest)
 extension ColorLuminance {
+	var auxiliary: ColorLuminance {
+		switch self {
+			case .nearWhite: return .extraLight
+			case .extraLight: return .light
+			case .light: return .normal
+			case .normal: return .medium
+			case .medium: return .semiDark
+			case .semiDark: return .medium
+			case .dark: return .semiDark
+			case .extraDark: return .dark
+			case .nearBlack: return .extraDark
+		}
+	}
+
 	var secondary: ColorLuminance {
+		switch self {
+			case .nearWhite: return .light
+			case .extraLight: return .normal
+			case .light: return .medium
+			case .normal: return .semiDark
+			case .medium: return .dark
+			case .semiDark: return .normal
+			case .dark: return .medium
+			case .extraDark: return .semiDark
+			case .nearBlack: return .dark
+		}
+	}
+
+	var tertiary: ColorLuminance {
 		switch self {
 			case .nearWhite: return .normal
 			case .extraLight: return .medium
@@ -134,37 +162,20 @@ extension ColorLuminance {
 		}
 	}
 	
-	var tertiary: ColorLuminance {
+	var quarternary: ColorLuminance {
 		switch self {
-			case .nearWhite: return .light
-			case .extraLight: return .normal
-			case .light: return .medium
-			case .normal: return .semiDark
-			case .medium: return .dark
-			case .semiDark: return .normal
-			case .dark: return .medium
-			case .extraDark: return .semiDark
-			case .nearBlack: return .dark
+			case .nearWhite: return .medium
+			case .extraLight: return .semiDark
+			case .light: return .dark
+			case .normal: return .extraDark
+			case .medium: return .nearBlack
+			case .semiDark: return .extraLight
+			case .dark: return .light
+			case .extraDark: return .normal
+			case .nearBlack: return .medium
 		}
 	}
 	
-	var quarternary: ColorLuminance {
-		switch self {
-			case .nearWhite: return .extraLight
-			case .extraLight: return .light
-			case .light: return .normal
-			case .normal: return .medium
-			case .medium: return .semiDark
-			case .semiDark: return .medium
-			case .dark: return .semiDark
-			case .extraDark: return .dark
-			case .nearBlack: return .extraDark
-		}
-	}
-}
-
-/// Accessible (farthest away)
-extension ColorLuminance {
 	var accessible: ColorLuminance {
 		switch self {
 			case .nearWhite: return .nearBlack
