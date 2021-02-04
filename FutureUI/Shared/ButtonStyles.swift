@@ -7,28 +7,46 @@
 
 import SwiftUI
 
-struct ButtonStyles: View {
-	var body: some View {
-		VStack {
-			Button(action: {
-				print("save button")
-			}, label: {
-				Text("save")
-					.font(.system(.largeTitle, design: .monospaced))
-					.fontWeight(.black)
-					.padding()
-			})
-				.buttonStyle(BrutalistButtonStyle(hue: .green))
-		}
-	}
-}
-
+// MARK: - PREVIEW
 struct ButtonStyles_Previews: PreviewProvider {
 	static var previews: some View {
 		ButtonStyles()
+			.preferredColorScheme(.light)
+		
+		ButtonStyles()
+			.preferredColorScheme(.dark)
 	}
 }
 
+struct ButtonStyles: View {
+	
+	// MARK: - PROPS
+	
+	// MARK: - BODY
+	var body: some View {
+		VStack(spacing: 16) {
+			Button(action: {
+				print("brutal")
+			}, label: {
+				Text("brutal")
+					.font(.system(.body, design: .monospaced))
+					.padding()
+			})
+				.buttonStyle(BrutalistButtonStyle(hue: .green))
+			Button(action: {
+				print("glitch")
+			}, label: {
+				Text("glitch")
+					.padding()
+			})
+			.buttonStyle(GlitchButtonStyle(hue: .green))
+		}
+		.padding()
+	}
+}
+
+
+// MARK: - BRUTALIST
 struct BrutalistButtonStyle: ButtonStyle {
 	var hue: ColorHue = .grey
 	var dis: CGFloat = 3.0
@@ -57,6 +75,38 @@ struct BrutalistButtonStyle: ButtonStyle {
 				}
 			)
 			.foregroundColor(ColorPreset(hue: hue, lum: .dark).getColor())
+			.animation(.spring(response: 0))
+	}
+}
+
+// MARK: - GLITCH
+
+struct GlitchButtonStyle: ButtonStyle {
+	var hue: ColorHue = .grey
+	var dis: CGFloat = 1.0
+	
+	func makeBody(configuration: Self.Configuration) -> some View {
+		configuration.label
+			.background(
+				ZStack {
+					// ground
+					Rectangle()
+						.foregroundColor(ColorPreset(lum: configuration.isPressed ? .light : .nearWhite).getColor())
+					
+					// border
+					Rectangle()
+						.inset(by: -3 * dis)
+						.strokeBorder(ColorPreset(hue: .yellow, lum: .extraLight).getColor(), lineWidth: dis)
+					
+					Rectangle()
+						.inset(by: -2 * dis)
+						.strokeBorder(ColorPreset(hue: .red, lum: .extraLight).getColor(), lineWidth: dis)
+					
+					Rectangle()
+						.inset(by: -1 * dis)
+						.strokeBorder(ColorPreset(hue: .blue, lum: .extraLight).getColor(), lineWidth: dis)
+				}
+			)
 			.animation(.spring(response: 0))
 	}
 }
