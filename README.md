@@ -1,14 +1,14 @@
 # Futuristic UI
 
 
-## TODO
-- [x] Colors
+## WIP
 - [ ] VisualEffectBlur (COMBINE)
 	- add the cycling of blurMaterials that I did in HexagonalPortrait
-- [x] Hexagons
-- [x] DateTime
-
 - [ ] AppDelegate stuff I did for the HexagonalPortrait
+
+
+
+## TODO
 
 
 ### Maybe
@@ -22,6 +22,8 @@ ATOMIC DESIGN?
 ### LATER
 - [ ] all kinds of fun data inputs
 - [ ] not loving Glitch yet
+
+
 
 ## CHANGELOG
 
