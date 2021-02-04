@@ -10,15 +10,23 @@
 
 - [ ] AppDelegate stuff I did for the HexagonalPortrait
 
+
 ### Maybe
 - [ ] HelperLabels
 - [ ] Export / Screen recording
 
 
+ATOMIC DESIGN?
+- Atoms, Molecules...
+
 ### LATER
-- [ ] all kinds of fun data inputs 
+- [ ] all kinds of fun data inputs
+- [ ] not loving Glitch yet
 
 ## CHANGELOG
+
+**12021·02·04**
+- added GlitchButtonStyle
 
 **12021·01·27**
 - add BrutalistButtonStyle, SmartOverlay
