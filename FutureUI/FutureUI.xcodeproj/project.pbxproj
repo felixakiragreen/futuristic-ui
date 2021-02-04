@@ -11,6 +11,9 @@
 		1D53E5A725C1CDB700B4E1BE /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D53E5A525C1CDB700B4E1BE /* ButtonStyles.swift */; };
 		1D53E5BA25C1D1CC00B4E1BE /* SmartOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D53E5B925C1D1CC00B4E1BE /* SmartOverlay.swift */; };
 		1D53E5BB25C1D1CC00B4E1BE /* SmartOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D53E5B925C1D1CC00B4E1BE /* SmartOverlay.swift */; };
+		1D58E48425CC642400989980 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D58E48325CC642400989980 /* AppDelegate.swift */; };
+		1D58E48625CC646B00989980 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D58E48525CC646B00989980 /* BlurView.swift */; };
+		1D58E48725CC646B00989980 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D58E48525CC646B00989980 /* BlurView.swift */; };
 		1DDCE70E25BDDFE7009D94B1 /* FutureUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE6FB25BDDFDE009D94B1 /* FutureUIApp.swift */; };
 		1DDCE70F25BDDFE7009D94B1 /* FutureUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE6FB25BDDFDE009D94B1 /* FutureUIApp.swift */; };
 		1DDCE71025BDDFE7009D94B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE6FC25BDDFDE009D94B1 /* ContentView.swift */; };
@@ -48,6 +51,8 @@
 /* Begin PBXFileReference section */
 		1D53E5A525C1CDB700B4E1BE /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
 		1D53E5B925C1D1CC00B4E1BE /* SmartOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartOverlay.swift; sourceTree = "<group>"; };
+		1D58E48325CC642400989980 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D58E48525CC646B00989980 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		1DDCE6FB25BDDFDE009D94B1 /* FutureUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureUIApp.swift; sourceTree = "<group>"; };
 		1DDCE6FC25BDDFDE009D94B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1DDCE6FD25BDDFE7009D94B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -111,6 +116,7 @@
 				1DDCE76F25BDE4E8009D94B1 /* Molds */,
 				1DDCE77225BDE501009D94B1 /* Tools */,
 				1DDCE75825BDE3C7009D94B1 /* Hexagonal */,
+				1D58E48525CC646B00989980 /* BlurView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -137,6 +143,7 @@
 			children = (
 				1DDCE70C25BDDFE7009D94B1 /* Info.plist */,
 				1DDCE70D25BDDFE7009D94B1 /* macOS.entitlements */,
+				1D58E48325CC642400989980 /* AppDelegate.swift */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
@@ -278,6 +285,7 @@
 				1DDCE77E25BDE56B009D94B1 /* Date+round.swift in Sources */,
 				1DDCE76725BDE452009D94B1 /* RoundedHexagon+preview.swift in Sources */,
 				1DDCE73225BDE129009D94B1 /* Nifty.swift in Sources */,
+				1D58E48625CC646B00989980 /* BlurView.swift in Sources */,
 				1DDCE74A25BDE355009D94B1 /* Hexagon.swift in Sources */,
 				1DDCE78025BDE56B009D94B1 /* Calendar+generate.swift in Sources */,
 				1DDCE74F25BDE363009D94B1 /* Hexagon+preview.swift in Sources */,
@@ -309,9 +317,11 @@
 				1DDCE74125BDE201009D94B1 /* WIP.swift in Sources */,
 				1DDCE71125BDDFE7009D94B1 /* ContentView.swift in Sources */,
 				1DDCE75525BDE3C2009D94B1 /* View+hexagonalFrame.swift in Sources */,
+				1D58E48425CC642400989980 /* AppDelegate.swift in Sources */,
 				1DDCE72725BDE089009D94B1 /* Color+hex.swift in Sources */,
 				1D53E5A725C1CDB700B4E1BE /* ButtonStyles.swift in Sources */,
 				1DDCE72025BDE047009D94B1 /* Colors.swift in Sources */,
+				1D58E48725CC646B00989980 /* BlurView.swift in Sources */,
 				1D53E5BB25C1D1CC00B4E1BE /* SmartOverlay.swift in Sources */,
 				1DDCE70F25BDDFE7009D94B1 /* FutureUIApp.swift in Sources */,
 			);
