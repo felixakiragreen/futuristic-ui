@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D24674E25CDBDC90026D717 /* Calendar+numberOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D24674D25CDBDC90026D717 /* Calendar+numberOf.swift */; };
+		1D24674F25CDBDC90026D717 /* Calendar+numberOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D24674D25CDBDC90026D717 /* Calendar+numberOf.swift */; };
+		1D24675525CDDAC60026D717 /* Comparable+clamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D24675425CDDAC60026D717 /* Comparable+clamp.swift */; };
+		1D24675625CDDAC60026D717 /* Comparable+clamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D24675425CDDAC60026D717 /* Comparable+clamp.swift */; };
+		1D24675825CDDADF0026D717 /* Dictionary+optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D24675725CDDADF0026D717 /* Dictionary+optional.swift */; };
+		1D24675925CDDADF0026D717 /* Dictionary+optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D24675725CDDADF0026D717 /* Dictionary+optional.swift */; };
 		1D53E5A625C1CDB700B4E1BE /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D53E5A525C1CDB700B4E1BE /* ButtonStyles.swift */; };
 		1D53E5A725C1CDB700B4E1BE /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D53E5A525C1CDB700B4E1BE /* ButtonStyles.swift */; };
 		1D53E5BA25C1D1CC00B4E1BE /* SmartOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D53E5B925C1D1CC00B4E1BE /* SmartOverlay.swift */; };
@@ -24,10 +30,10 @@
 		1DDCE72025BDE047009D94B1 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE71E25BDE047009D94B1 /* Colors.swift */; };
 		1DDCE72625BDE089009D94B1 /* Color+hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE72525BDE089009D94B1 /* Color+hex.swift */; };
 		1DDCE72725BDE089009D94B1 /* Color+hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE72525BDE089009D94B1 /* Color+hex.swift */; };
-		1DDCE72D25BDE100009D94B1 /* MouseMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE72C25BDE100009D94B1 /* MouseMove.swift */; };
-		1DDCE72E25BDE100009D94B1 /* MouseMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE72C25BDE100009D94B1 /* MouseMove.swift */; };
-		1DDCE73225BDE129009D94B1 /* Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE73125BDE129009D94B1 /* Nifty.swift */; };
-		1DDCE73325BDE129009D94B1 /* Nifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE73125BDE129009D94B1 /* Nifty.swift */; };
+		1DDCE72D25BDE100009D94B1 /* View+trackingMouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE72C25BDE100009D94B1 /* View+trackingMouse.swift */; };
+		1DDCE72E25BDE100009D94B1 /* View+trackingMouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE72C25BDE100009D94B1 /* View+trackingMouse.swift */; };
+		1DDCE73225BDE129009D94B1 /* Collection+optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE73125BDE129009D94B1 /* Collection+optional.swift */; };
+		1DDCE73325BDE129009D94B1 /* Collection+optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE73125BDE129009D94B1 /* Collection+optional.swift */; };
 		1DDCE74025BDE201009D94B1 /* WIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE73F25BDE201009D94B1 /* WIP.swift */; };
 		1DDCE74125BDE201009D94B1 /* WIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE73F25BDE201009D94B1 /* WIP.swift */; };
 		1DDCE74525BDE231009D94B1 /* DateFormatter+future.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCE74425BDE231009D94B1 /* DateFormatter+future.swift */; };
@@ -49,6 +55,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D24674D25CDBDC90026D717 /* Calendar+numberOf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Calendar+numberOf.swift"; sourceTree = "<group>"; };
+		1D24675425CDDAC60026D717 /* Comparable+clamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Comparable+clamp.swift"; sourceTree = "<group>"; };
+		1D24675725CDDADF0026D717 /* Dictionary+optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+optional.swift"; sourceTree = "<group>"; };
 		1D53E5A525C1CDB700B4E1BE /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
 		1D53E5B925C1D1CC00B4E1BE /* SmartOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartOverlay.swift; sourceTree = "<group>"; };
 		1D58E48325CC642400989980 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,8 +72,8 @@
 		1DDCE70D25BDDFE7009D94B1 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		1DDCE71E25BDE047009D94B1 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		1DDCE72525BDE089009D94B1 /* Color+hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+hex.swift"; sourceTree = "<group>"; };
-		1DDCE72C25BDE100009D94B1 /* MouseMove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseMove.swift; sourceTree = "<group>"; };
-		1DDCE73125BDE129009D94B1 /* Nifty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nifty.swift; sourceTree = "<group>"; };
+		1DDCE72C25BDE100009D94B1 /* View+trackingMouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+trackingMouse.swift"; sourceTree = "<group>"; };
+		1DDCE73125BDE129009D94B1 /* Collection+optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+optional.swift"; sourceTree = "<group>"; };
 		1DDCE73625BDE146009D94B1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1DDCE73F25BDE201009D94B1 /* WIP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WIP.swift; sourceTree = "<group>"; };
 		1DDCE74425BDE231009D94B1 /* DateFormatter+future.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+future.swift"; sourceTree = "<group>"; };
@@ -95,6 +104,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D24675325CDDA910026D717 /* Elements+preview */ = {
+			isa = PBXGroup;
+			children = (
+				1DDCE74E25BDE363009D94B1 /* Hexagon+preview.swift */,
+				1DDCE76625BDE452009D94B1 /* RoundedHexagon+preview.swift */,
+			);
+			path = "Elements+preview";
+			sourceTree = "<group>";
+		};
 		1DDCE6F525BDDFDD009D94B1 = {
 			isa = PBXGroup;
 			children = (
@@ -112,11 +130,11 @@
 				1DDCE6FD25BDDFE7009D94B1 /* Assets.xcassets */,
 				1DDCE6FB25BDDFDE009D94B1 /* FutureUIApp.swift */,
 				1DDCE6FC25BDDFDE009D94B1 /* ContentView.swift */,
-				1D53E5A525C1CDB700B4E1BE /* ButtonStyles.swift */,
-				1DDCE76F25BDE4E8009D94B1 /* Molds */,
-				1DDCE77225BDE501009D94B1 /* Tools */,
-				1DDCE75825BDE3C7009D94B1 /* Hexagonal */,
 				1D58E48525CC646B00989980 /* BlurView.swift */,
+				1DDCE76F25BDE4E8009D94B1 /* Components */,
+				1DDCE75825BDE3C7009D94B1 /* Elements */,
+				1D24675325CDDA910026D717 /* Elements+preview */,
+				1DDCE77225BDE501009D94B1 /* Principles */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -148,39 +166,41 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
-		1DDCE75825BDE3C7009D94B1 /* Hexagonal */ = {
+		1DDCE75825BDE3C7009D94B1 /* Elements */ = {
 			isa = PBXGroup;
 			children = (
 				1DDCE74925BDE355009D94B1 /* Hexagon.swift */,
-				1DDCE74E25BDE363009D94B1 /* Hexagon+preview.swift */,
 				1DDCE75B25BDE3EF009D94B1 /* RoundedHexagon.swift */,
-				1DDCE76625BDE452009D94B1 /* RoundedHexagon+preview.swift */,
-				1DDCE75325BDE3C2009D94B1 /* View+hexagonalFrame.swift */,
+				1D53E5A525C1CDB700B4E1BE /* ButtonStyles.swift */,
 			);
-			path = Hexagonal;
+			path = Elements;
 			sourceTree = "<group>";
 		};
-		1DDCE76F25BDE4E8009D94B1 /* Molds */ = {
+		1DDCE76F25BDE4E8009D94B1 /* Components */ = {
 			isa = PBXGroup;
 			children = (
 				1D53E5B925C1D1CC00B4E1BE /* SmartOverlay.swift */,
 				1DDCE73F25BDE201009D94B1 /* WIP.swift */,
 			);
-			path = Molds;
+			path = Components;
 			sourceTree = "<group>";
 		};
-		1DDCE77225BDE501009D94B1 /* Tools */ = {
+		1DDCE77225BDE501009D94B1 /* Principles */ = {
 			isa = PBXGroup;
 			children = (
 				1DDCE71E25BDE047009D94B1 /* Colors.swift */,
 				1DDCE72525BDE089009D94B1 /* Color+hex.swift */,
-				1DDCE72C25BDE100009D94B1 /* MouseMove.swift */,
-				1DDCE73125BDE129009D94B1 /* Nifty.swift */,
-				1DDCE77B25BDE56B009D94B1 /* Date+round.swift */,
+				1DDCE72C25BDE100009D94B1 /* View+trackingMouse.swift */,
+				1DDCE75325BDE3C2009D94B1 /* View+hexagonalFrame.swift */,
 				1DDCE77C25BDE56B009D94B1 /* Calendar+generate.swift */,
+				1D24674D25CDBDC90026D717 /* Calendar+numberOf.swift */,
+				1DDCE77B25BDE56B009D94B1 /* Date+round.swift */,
 				1DDCE74425BDE231009D94B1 /* DateFormatter+future.swift */,
+				1DDCE73125BDE129009D94B1 /* Collection+optional.swift */,
+				1D24675425CDDAC60026D717 /* Comparable+clamp.swift */,
+				1D24675725CDDADF0026D717 /* Dictionary+optional.swift */,
 			);
-			path = Tools;
+			path = Principles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,10 +301,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DDCE75C25BDE3EF009D94B1 /* RoundedHexagon.swift in Sources */,
-				1DDCE72D25BDE100009D94B1 /* MouseMove.swift in Sources */,
+				1DDCE72D25BDE100009D94B1 /* View+trackingMouse.swift in Sources */,
 				1DDCE77E25BDE56B009D94B1 /* Date+round.swift in Sources */,
 				1DDCE76725BDE452009D94B1 /* RoundedHexagon+preview.swift in Sources */,
-				1DDCE73225BDE129009D94B1 /* Nifty.swift in Sources */,
+				1D24675825CDDADF0026D717 /* Dictionary+optional.swift in Sources */,
+				1DDCE73225BDE129009D94B1 /* Collection+optional.swift in Sources */,
 				1D58E48625CC646B00989980 /* BlurView.swift in Sources */,
 				1DDCE74A25BDE355009D94B1 /* Hexagon.swift in Sources */,
 				1DDCE78025BDE56B009D94B1 /* Calendar+generate.swift in Sources */,
@@ -293,11 +314,13 @@
 				1DDCE74025BDE201009D94B1 /* WIP.swift in Sources */,
 				1DDCE71025BDDFE7009D94B1 /* ContentView.swift in Sources */,
 				1DDCE75425BDE3C2009D94B1 /* View+hexagonalFrame.swift in Sources */,
+				1D24674E25CDBDC90026D717 /* Calendar+numberOf.swift in Sources */,
 				1DDCE72625BDE089009D94B1 /* Color+hex.swift in Sources */,
 				1D53E5A625C1CDB700B4E1BE /* ButtonStyles.swift in Sources */,
 				1DDCE71F25BDE047009D94B1 /* Colors.swift in Sources */,
 				1D53E5BA25C1D1CC00B4E1BE /* SmartOverlay.swift in Sources */,
 				1DDCE70E25BDDFE7009D94B1 /* FutureUIApp.swift in Sources */,
+				1D24675525CDDAC60026D717 /* Comparable+clamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,14 +329,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DDCE75D25BDE3EF009D94B1 /* RoundedHexagon.swift in Sources */,
-				1DDCE72E25BDE100009D94B1 /* MouseMove.swift in Sources */,
+				1D24674F25CDBDC90026D717 /* Calendar+numberOf.swift in Sources */,
+				1DDCE72E25BDE100009D94B1 /* View+trackingMouse.swift in Sources */,
 				1DDCE77D25BDE56B009D94B1 /* Date+round.swift in Sources */,
 				1DDCE76825BDE452009D94B1 /* RoundedHexagon+preview.swift in Sources */,
-				1DDCE73325BDE129009D94B1 /* Nifty.swift in Sources */,
+				1DDCE73325BDE129009D94B1 /* Collection+optional.swift in Sources */,
 				1DDCE74B25BDE355009D94B1 /* Hexagon.swift in Sources */,
 				1DDCE77F25BDE56B009D94B1 /* Calendar+generate.swift in Sources */,
+				1D24675625CDDAC60026D717 /* Comparable+clamp.swift in Sources */,
 				1DDCE75025BDE363009D94B1 /* Hexagon+preview.swift in Sources */,
 				1DDCE74625BDE231009D94B1 /* DateFormatter+future.swift in Sources */,
+				1D24675925CDDADF0026D717 /* Dictionary+optional.swift in Sources */,
 				1DDCE74125BDE201009D94B1 /* WIP.swift in Sources */,
 				1DDCE71125BDDFE7009D94B1 /* ContentView.swift in Sources */,
 				1DDCE75525BDE3C2009D94B1 /* View+hexagonalFrame.swift in Sources */,
