@@ -13,6 +13,7 @@ import SwiftUI
 struct BlurView_Previews: PreviewProvider {
 	static var previews: some View {
 		BlurView()
+			.previewLayout(.sizeThatFits)
 	}
 //	static var previews: some View {
 //		ZStack {
@@ -95,27 +96,35 @@ struct BlurView: View {
 	
 	// MARK: - BODY
 	var body: some View {
-		let blurMaterialName = materialNames[optional: material]
+		let blurMaterialName: String = materialNames[optional: material] ?? ""
+		
+		
 		
 		return ZStack {
 			if let blurMaterial = materials[optional: material] {
 				VisualEffectBlur(material: blurMaterial)
 			}
-		VStack {
-//		Text("currentMaterial: \(blurMaterialName)")
-		}
+			VStack {
+				Text("currentMaterial: \(blurMaterialName)")
+			}
+			//: VStack
+			
+		} //: ZStack
+//		.frame(width: 300, height: 300)
 		.onTapGesture {
-			if material < materials.count {
+			if material < materials.count - 1 {
 				material += 1
 			} else {
 				material = 0
 			}
-//			print("selecting:", materialNames[optional: material])
 		}
-		.frame(width: 300, height: 300)
-		}
-	}
+	} //: body
 }
+
+
+//struct CyclingBlurView:
+
+
 
 #if os(macOS)
 
