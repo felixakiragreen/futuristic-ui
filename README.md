@@ -11,14 +11,10 @@
 
 
 ## TODAY
-- BlurView
 
 
 ## WIP
-- [ ] VisualEffectBlur
-	- add the cycling of blurMaterials that I did in HexagonalPortrait
-	-  COMBINE (add iOS version)
-- [ ] AppDelegate stuff I did for the HexagonalPortrait
+- [ ] BlurView (iOS version)
 - [ ] not loving Glitch yet
 
 
@@ -32,6 +28,10 @@
 - [ ] Export / Screen recording
 - [ ] Akira (fonts)
 - [ ] Felix Color Palette v2 (Improved Light/Dark)
+	- consider integrating systemColors:
+		- primary, secondary...
+		- labelColor, secondaryLabelColor, tertiaryLabelColor, and quaternaryLabelColor
+			(labelColor offers most contrast, quarternary least)
 - [ ] extrapolate best patterns to snippets
 - [ ] comb through old projects to keep this MegaProject up to date 
 
@@ -74,7 +74,9 @@ Hard to describe:
 
 **12021·02·05**
 - converted project to my own version of Atomic Design: Principles → Elements → Componets → Views
-- split out collection
+- split out Collection helpers
+- VisualEffectBlur (with cycling of materials, blendModes, states)
+- use AppDelegate to get clear window
 
 **12021·02·04**
 - added GlitchButtonStyle
