@@ -47,6 +47,13 @@ struct BlurView_Previews: PreviewProvider {
 }
 
 
+/**
+# TODO:
+
+- [ ] would be nice to be able to show all of them together in grid
+- [ ] split out preview file
+*/
+
 struct BlurView: View {
 	
 	// MARK: - PROPS
