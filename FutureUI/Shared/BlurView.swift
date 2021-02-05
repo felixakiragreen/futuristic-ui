@@ -7,7 +7,12 @@
 
 import SwiftUI
 
-
+/**
+TODO:
+- [ ] add a grid view that shows all of the blurs together
+- [ ] add a tabView that lets you switch between full Window & grid View
+- [ ] pull out the previews
+*/
 
 // MARK: - PREVIEW
 struct BlurView_Previews: PreviewProvider {
@@ -91,103 +96,91 @@ struct BlurView: View {
 		".underWindowBackground",
 		".underPageBackground"
 	]
-	
 	@State var material: Int = 8
+	
+	let blendModes: [NSVisualEffectView.BlendingMode] = [
+		.behindWindow,
+		.withinWindow,
+	]
+	let blendModeNames: [String] = [
+		".behindWindow",
+		".withinWindow"
+	]
+	@State var blendMode: Int = 0
+	
+	let states: [NSVisualEffectView.State] = [
+		.followsWindowActiveState,
+		.active,
+		.inactive
+	]
+	let stateNames: [String] = [
+		".followsWindowActiveState",
+		".active",
+		".inactive"
+	]
+	@State var state: Int = 0
 	
 	// MARK: - BODY
 	var body: some View {
-		let blurMaterialName: String = materialNames[optional: material] ?? ""
-		
-		
-		
-		return ZStack {
-			if let blurMaterial = materials[optional: material] {
-				VisualEffectBlur(material: blurMaterial)
+		ZStack {
+			if let blurMaterial = materials[optional: material],
+				let blurBlendMode = blendModes[optional: blendMode],
+				let blurState = states[optional: state] {
+				
+				VisualEffectBlur(material: blurMaterial, blendMode: blurBlendMode, state: blurState)
+	
+				VStack {
+					Text("material: \(materialNames[optional: material] ?? "") - \(blurMaterial.rawValue)")
+					Text("blendMode: \(blendModeNames[optional: blendMode] ?? "") - \(blurBlendMode.rawValue)")
+					Text("state: \(stateNames[optional: state] ?? "") - \(blurState.rawValue)")
+					
+					Button("cycle material") {
+						if material < materials.count - 1 {
+							material += 1
+						} else {
+							material = 0
+						}
+					}
+					Button("cycle blendMode") {
+						if blendMode < blendModes.count - 1 {
+							blendMode += 1
+						} else {
+							blendMode = 0
+						}
+					}
+					Button("cycle state") {
+						if state < states.count - 1 {
+							state += 1
+						} else {
+							state = 0
+						}
+					}
+				}
+				//: VStack
+				.frame(width: 300, height: 300)
 			}
-			VStack {
-				Text("currentMaterial: \(blurMaterialName)")
-			}
-			//: VStack
-			
 		} //: ZStack
-//		.frame(width: 300, height: 300)
-		.onTapGesture {
-			if material < materials.count - 1 {
-				material += 1
-			} else {
-				material = 0
-			}
-		}
 	} //: body
 }
 
-
-//struct CyclingBlurView:
-
-
-
-#if os(macOS)
-
-// MARK: - VisualEffectBlur
-
-/**
-TODO:
-- [ ] add state
-- [ ] add blendMode
-https://developer.apple.com/documentation/appkit/nsvisualeffectview
-*/
-
-struct VisualEffectBlur: View {
-	var material: NSVisualEffectView.Material
-	// state
-	// blendMode
-	
-	init(material: NSVisualEffectView.Material = .headerView) {
-		self.material = material
-	}
-	
-	var body: some View {
-		Representable(material: material)
-			.accessibility(hidden: true)
-	}
-}
-
-// MARK: - Representable
-
-extension VisualEffectBlur {
-	struct Representable: NSViewRepresentable {
-		var material: NSVisualEffectView.Material
-		
-		func makeNSView(context: Context) -> NSVisualEffectView {
-			context.coordinator.visualEffectView
-		}
-		
-		func updateNSView(_ view: NSVisualEffectView, context: Context) {
-			context.coordinator.update(material: material)
-		}
-		
-		func makeCoordinator() -> Coordinator {
-			Coordinator()
-		}
-	}
-	
-	class Coordinator {
-		let visualEffectView = NSVisualEffectView()
-		
-		init() {
-			visualEffectView.blendingMode = .withinWindow
-			visualEffectView.state = .active
-		}
-		
-		func update(material: NSVisualEffectView.Material) {
-			visualEffectView.material = material
-		}
-	}
-}
+//struct CyclingBlurView: View {
+//
+//
+//	var body: some View {
+//
+//	}
+//}
 
 
-#elseif os(iOS)
+//TabView {
+//	Text("Content for page 1")
+//		.tabItem({ Label("Title 1", systemImage: "1.square.fill") })
+//
+//	Text("Content for page 2")
+//		.tabItem({ Label("Title 2", systemImage: "2.square.fill") })
+//
+//	Text("Content for page 3")
+//		.tabItem({ Label("Title 3", systemImage: "3.square.fill") })
+//}
+//.frame(width: 300, height: 200)
 
-
-
-#endif
