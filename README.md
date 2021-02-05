@@ -25,9 +25,17 @@
 
 ## TODO
 
+
+
 ### LATER
 - [ ] HelperLabels from Hexis
 - [ ] Export / Screen recording
+- [ ] Akira (fonts)
+- [ ] Felix Color Palette v2 (Improved Light/Dark)
+- [ ] extrapolate best patterns to snippets
+- [ ] comb through old projects to keep this MegaProject up to date 
+
+
 
 
 ## Roadmap
@@ -58,6 +66,8 @@ Hard to describe:
 - [Paper gradients](https://twitter.com/matthewshlian/status/1351508578541182976/photo/1)
 - [Old maps](https://observablehq.com/@tomshanley/cheysson-color-palettes)
 - [Spirit deck](https://observablehq.com/@makio135/pixelspirit-for-observable)
+
+
 
 
 ## CHANGELOG
