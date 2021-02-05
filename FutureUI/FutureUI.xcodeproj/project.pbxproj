@@ -13,6 +13,8 @@
 		1D24675625CDDAC60026D717 /* Comparable+clamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D24675425CDDAC60026D717 /* Comparable+clamp.swift */; };
 		1D24675825CDDADF0026D717 /* Dictionary+optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D24675725CDDADF0026D717 /* Dictionary+optional.swift */; };
 		1D24675925CDDADF0026D717 /* Dictionary+optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D24675725CDDADF0026D717 /* Dictionary+optional.swift */; };
+		1D24675B25CDE33A0026D717 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D24675A25CDE33A0026D717 /* VisualEffectBlur.swift */; };
+		1D24675C25CDE33A0026D717 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D24675A25CDE33A0026D717 /* VisualEffectBlur.swift */; };
 		1D53E5A625C1CDB700B4E1BE /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D53E5A525C1CDB700B4E1BE /* ButtonStyles.swift */; };
 		1D53E5A725C1CDB700B4E1BE /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D53E5A525C1CDB700B4E1BE /* ButtonStyles.swift */; };
 		1D53E5BA25C1D1CC00B4E1BE /* SmartOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D53E5B925C1D1CC00B4E1BE /* SmartOverlay.swift */; };
@@ -58,6 +60,7 @@
 		1D24674D25CDBDC90026D717 /* Calendar+numberOf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Calendar+numberOf.swift"; sourceTree = "<group>"; };
 		1D24675425CDDAC60026D717 /* Comparable+clamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Comparable+clamp.swift"; sourceTree = "<group>"; };
 		1D24675725CDDADF0026D717 /* Dictionary+optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+optional.swift"; sourceTree = "<group>"; };
+		1D24675A25CDE33A0026D717 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		1D53E5A525C1CDB700B4E1BE /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
 		1D53E5B925C1D1CC00B4E1BE /* SmartOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartOverlay.swift; sourceTree = "<group>"; };
 		1D58E48325CC642400989980 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -172,6 +175,7 @@
 				1DDCE74925BDE355009D94B1 /* Hexagon.swift */,
 				1DDCE75B25BDE3EF009D94B1 /* RoundedHexagon.swift */,
 				1D53E5A525C1CDB700B4E1BE /* ButtonStyles.swift */,
+				1D24675A25CDE33A0026D717 /* VisualEffectBlur.swift */,
 			);
 			path = Elements;
 			sourceTree = "<group>";
@@ -313,6 +317,7 @@
 				1DDCE74525BDE231009D94B1 /* DateFormatter+future.swift in Sources */,
 				1DDCE74025BDE201009D94B1 /* WIP.swift in Sources */,
 				1DDCE71025BDDFE7009D94B1 /* ContentView.swift in Sources */,
+				1D24675B25CDE33A0026D717 /* VisualEffectBlur.swift in Sources */,
 				1DDCE75425BDE3C2009D94B1 /* View+hexagonalFrame.swift in Sources */,
 				1D24674E25CDBDC90026D717 /* Calendar+numberOf.swift in Sources */,
 				1DDCE72625BDE089009D94B1 /* Color+hex.swift in Sources */,
@@ -332,6 +337,7 @@
 				1D24674F25CDBDC90026D717 /* Calendar+numberOf.swift in Sources */,
 				1DDCE72E25BDE100009D94B1 /* View+trackingMouse.swift in Sources */,
 				1DDCE77D25BDE56B009D94B1 /* Date+round.swift in Sources */,
+				1D24675C25CDE33A0026D717 /* VisualEffectBlur.swift in Sources */,
 				1DDCE76825BDE452009D94B1 /* RoundedHexagon+preview.swift in Sources */,
 				1DDCE73325BDE129009D94B1 /* Collection+optional.swift in Sources */,
 				1DDCE74B25BDE355009D94B1 /* Hexagon.swift in Sources */,
