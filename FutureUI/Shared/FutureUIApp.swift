@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct FutureUIApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
+	@NSApplicationDelegateAdaptor(AppDelegate.self) var delegate
+
+	var body: some Scene {
+		WindowGroup {
+			ContentView()
+		}
+		.windowStyle(HiddenTitleBarWindowStyle())
+		.windowToolbarStyle(UnifiedCompactWindowToolbarStyle())
+	}
 }
