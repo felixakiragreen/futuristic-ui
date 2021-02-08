@@ -112,6 +112,7 @@
 			children = (
 				1DDCE74E25BDE363009D94B1 /* Hexagon+preview.swift */,
 				1DDCE76625BDE452009D94B1 /* RoundedHexagon+preview.swift */,
+				1D58E48525CC646B00989980 /* BlurView.swift */,
 			);
 			path = "Elements+preview";
 			sourceTree = "<group>";
@@ -133,7 +134,6 @@
 				1DDCE6FD25BDDFE7009D94B1 /* Assets.xcassets */,
 				1DDCE6FB25BDDFDE009D94B1 /* FutureUIApp.swift */,
 				1DDCE6FC25BDDFDE009D94B1 /* ContentView.swift */,
-				1D58E48525CC646B00989980 /* BlurView.swift */,
 				1DDCE76F25BDE4E8009D94B1 /* Components */,
 				1DDCE75825BDE3C7009D94B1 /* Elements */,
 				1D24675325CDDA910026D717 /* Elements+preview */,

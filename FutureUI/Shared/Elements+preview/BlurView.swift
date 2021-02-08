@@ -20,36 +20,6 @@ struct BlurView_Previews: PreviewProvider {
 		BlurView()
 			.previewLayout(.sizeThatFits)
 	}
-//	static var previews: some View {
-//		ZStack {
-//			LinearGradient(gradient: Gradient(colors: [.red, .blue]), startPoint: .topLeading, endPoint: .bottomTrailing)
-//
-//			VStack {
-//				VisualEffectBlur(material: .contentBackground)
-//					.frame(height: 40)
-//				//					.padding()
-//				VisualEffectBlur(material: .fullScreenUI)
-//					.frame(height: 40)
-//				//					.padding()
-//				VisualEffectBlur(material: .titlebar)
-//					.frame(height: 40)
-//
-//				VisualEffectBlur(material: .headerView)
-//					.frame(height: 40)
-//
-//				VisualEffectBlur(material: .windowBackground)
-//					.frame(height: 40)
-//
-//				VisualEffectBlur(material: .sidebar)
-//					.frame(height: 40)
-//			}
-//			.padding()
-//
-//			Text("Hello World!")
-//		}
-//		//		  .frame(width: 200, height: 100)
-//		.previewLayout(.sizeThatFits)
-//	}
 }
 
 
