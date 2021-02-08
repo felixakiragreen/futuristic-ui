@@ -14,7 +14,7 @@
 
 
 ## WIP
-- [ ] BlurView (iOS version)
+
 - [ ] not loving Glitch yet
 
 
@@ -72,10 +72,13 @@ Hard to describe:
 
 ## CHANGELOG
 
+**12021·02·08**
+- add VisualEffectBlur #iOS
+
 **12021·02·05**
 - converted project to my own version of Atomic Design: Principles → Elements → Componets → Views
 - split out Collection helpers
-- VisualEffectBlur (with cycling of materials, blendModes, states)
+- VisualEffectBlur #macOS (with cycling of materials, blendModes, states)
 - use AppDelegate to get clear window
 
 **12021·02·04**
