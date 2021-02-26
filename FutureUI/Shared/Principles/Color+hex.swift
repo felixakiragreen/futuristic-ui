@@ -20,7 +20,7 @@ extension Color {
 	
 	var rgba: ColorComponentsRGBA {
 		#if canImport(AppKit)
-		let color = NSColor(self).usingColorSpace(.deviceRGB)!
+		let color = NSColor(self).usingColorSpace(.displayP3)!
 		#elseif canImport(UIKit)
 		let color = UIColor(self)
 		#endif
@@ -32,7 +32,7 @@ extension Color {
 	
 	var hsva: ColorComponentsHSVA {
 		#if canImport(AppKit)
-		let color = NSColor(self).usingColorSpace(.deviceRGB)!
+		let color = NSColor(self).usingColorSpace(.displayP3)!
 		#elseif canImport(UIKit)
 		let color = UIColor(self)
 		#endif
@@ -48,7 +48,7 @@ extension Color {
 		}
 		
 		self.init(
-			.sRGB,
+			.displayP3,
 			red: Double(r),
 			green: Double(g),
 			blue: Double(b),
@@ -62,7 +62,7 @@ extension Color {
 		}
 		
 		self.init(
-			.sRGB,
+			.displayP3,
 			red: Double(r),
 			green: Double(g),
 			blue: Double(b),
